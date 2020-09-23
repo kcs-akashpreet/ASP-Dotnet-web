@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: AspNetCoreWebApplication/build_output
-    destination: /home/ubuntu/aspnetcoreapp
+    destination: /var/www/web
   - source: scripts/virtualhost.conf
     destination: /home/ubuntu/aspnetcoreapp
 hooks:
