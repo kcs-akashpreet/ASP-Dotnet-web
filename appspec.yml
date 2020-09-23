@@ -5,18 +5,6 @@ files:
     destination: /home/ubuntu/aspnetcoreapp
   - source: scripts/virtualhost.conf
     destination: /home/ubuntu/aspnetcoreapp
-  - source: scripts/kestrel-aspnetcoreapp.service
-    destination: /etc/systemd/system/
-    
-overwrite: true
-permissions:
-- object: /var/www/html/test-deploy/codedeploy
-pattern: "*.sh"
-owner: root
-group: root
-mode: 755
-type:
-- file
 hooks:
   ApplicationStop:
     - location: scripts/stop_service
