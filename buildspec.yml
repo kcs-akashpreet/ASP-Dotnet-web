@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
     - CodeBuild-AspNetCoreWebApplication/build_output/**/*
-    - appspec.yml
