@@ -10,4 +10,4 @@ phases:
       - dotnet build -c release -o ./build_output AspNetCoreWebApplication.sln
 artifacts:
   files:
-    - CodeBuild-AspNetCoreWebApplication/build_output/**/*
+    - AspNetCoreWebApplication/build_output/**/*
