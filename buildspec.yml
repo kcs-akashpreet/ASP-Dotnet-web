@@ -10,4 +10,5 @@ phases:
       - dotnet build -c release -o ./build_output AspNetCoreWebApplication.sln
 artifacts:
   files:
-    - AspNetCoreWebApplication/build_output/**/*
+#   - AspNetCoreWebApplication/build_output/**/*
+    - AspNetCoreWebApplication\bin\Debug\netcoreapp2.0\*
