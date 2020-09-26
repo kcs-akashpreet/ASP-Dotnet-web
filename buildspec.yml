@@ -3,7 +3,7 @@ phases:
   pre_build:
     commands:
      - echo Restore started on `date`
-     - dotnet restore AspNetCoreWebApplication/AspNetCoreWebApplication.csproj
+     - dotnet restore AspNetCoreWebApplication.sln
   build:
     commands:
       - echo Build started on `date`
