@@ -11,4 +11,4 @@ phases:
 artifacts:
   files:
 #   - AspNetCoreWebApplication/build_output/**/*
-    - CodeBuild-AspNetCoreWebApplication/bin/Debug/netcoreapp2.0/*
+    - CodeBuild-AspNetCoreWebApplication/build_output/bin/Debug/netcoreapp2.0/*
