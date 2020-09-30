@@ -7,7 +7,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - dotnet build AspNetCoreWebApplication.sln
+      - dotnet build -c release -o ./build_output AspNetCoreWebApplication/AspNetCoreWebApplication.csproj
 artifacts:
   files:
     - ./build_output/**/*
