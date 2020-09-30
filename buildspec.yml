@@ -12,3 +12,4 @@ artifacts:
   files:
     - ./build_output/**/*
     - appspec.yml
+    - scripts/**/*
