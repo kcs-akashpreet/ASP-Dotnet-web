@@ -10,5 +10,5 @@ phases:
       - dotnet build AspNetCoreWebApplication.sln
 artifacts:
   files:
-#   - AspNetCoreWebApplication/build_output/**/*
-    - CodeBuild-AspNetCoreWebApplication/bin/Debug/netcoreapp2.0/*
+    - ./build_output/**/*
+    - appspec.yml
